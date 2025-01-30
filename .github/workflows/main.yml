@@ -2,7 +2,7 @@ nname: Build Mod
 
 on: [push, pull_request]
 
-jjobs:
+jobs:
   buildJar:
     runs-on: ubuntu-latest
 
