@@ -22,7 +22,7 @@ jobs:
       uses: android-actions/setup-android@v1
       with:
         api-level: '30'
-        components: 'platform-tools,build-tools;30.0.3''
+        components: 'platform-tools,build-tools;30.0.3'
 
     - name: Set permissions for gradlew
       run: chmod +x ./gradlew
