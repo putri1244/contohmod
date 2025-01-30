@@ -1,4 +1,4 @@
-nname: Build Mod
+name: Build Mod
 
 on: [push, pull_request]
 
